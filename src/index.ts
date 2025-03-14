@@ -10,7 +10,7 @@ let funcionarios: Funcionario[] = [
 ];
 
 let telefone: Telefone[] = [new Telefone("212", "5557890")];
-let empresa = new Empresa("Indústrias Stark", "Tecnologia", "63521489653", new Endereco("Rua Tony Stark", 100, "Upper East Side", "Nova York"), funcionarios, telefone
+let empresa = new Empresa("Tecnologia", "Indústrias Stark", "63521489653", new Endereco("Rua Howard Stark", 100, "Upper East Side", "Nova York"), funcionarios, telefone
   );
   
 let descritor = new Descritor(empresa);

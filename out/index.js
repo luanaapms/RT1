@@ -13,6 +13,6 @@ var funcionarios = [
     new funcionario_1.default("Pepper Potts", "456", "444455556666", new endereco_1.default("Rua Thanos", 777, "Venice Beach", "Los Angeles"), new telefone_1.default("310", "5555678")),
 ];
 var telefone = [new telefone_1.default("212", "5557890")];
-var empresa = new empresa_1.default("Indústrias Stark", "Tecnologia", "63521489653", new endereco_1.default("Rua Tony Stark", 100, "Upper East Side", "Nova York"), funcionarios, telefone);
+var empresa = new empresa_1.default("Tecnologia", "Indústrias Stark", "63521489653", new endereco_1.default("Rua Howard Stark", 100, "Upper East Side", "Nova York"), funcionarios, telefone);
 var descritor = new descritorEmpresa_1.default(empresa);
 console.log(descritor.descrever());
